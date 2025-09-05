@@ -122,3 +122,101 @@ section{
 .logo-collection img{
     width: 150px;
 }
+
+.section2{
+    padding: 20px 80px;
+}
+
+.text-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.text-content h1{
+    background-color: #B4FA5B;
+    font-size: 25px;
+    padding: 10px 10px 6px 10px;
+    font-family: decent;
+}
+
+.text-content p{
+    font-family: decent;
+    font-size: 16px;
+    max-width: 40%;
+    line-height: 18px;
+    color: rgb(46, 46, 46);
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-top: 80px;
+}
+
+.card-container .card{
+    height: 400px;
+    width: 47%;
+    /* background-color: red; */
+    border-radius: 30px;
+    border: 3px solid rgb(37, 37, 37);
+    box-shadow: 5px 10px 0 rgb(51, 51, 51);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container .card img{
+    width: 350px;
+}
+
+.card-container .black{
+    background-color: black;
+}
+
+.card-container .card .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.card-container .card .text :nth-child(1){
+    font-size: 50px;
+    background-color: #B4FA5B;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-container .black .text :nth-child(1){
+    background-color: white;
+    color: black;
+}
+
+.card-container .card .text :nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: decent;
+}
+
+.card-container .black .text :nth-child(2){
+    color: white;
+}
+
+.card-container .card .text :nth-child(2) i{
+    font-size: 16px;
+    background-color: black;
+    border-radius: 50%;
+    color: #B4FA5B;
+}
+
+.card-container .black .text :nth-child(2) i{
+    background-color: white;
+    color: black;
+}
