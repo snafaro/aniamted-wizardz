@@ -96,6 +96,7 @@ section{
     border: none;
     font-size: 20px;
     font-weight: 300;
+    cursor: pointer;
 }
 
 .section1 .hero .part2{
@@ -108,4 +109,16 @@ section{
     height: 100%;
     position: absolute;
     right: 0;
+}
+
+.logo-collection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.logo-collection img{
+    width: 150px;
 }
