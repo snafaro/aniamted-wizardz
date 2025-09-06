@@ -31,3 +31,10 @@ timeLine.from(".hero .part2 img",{
     opacity:0,
     duration:.5
 },"-=.8")
+
+timeLine.from(".logo-collection img",{
+    y: 50,
+    duration: .3,
+    opacity:0,
+    stagger: .2
+})
