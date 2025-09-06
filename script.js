@@ -13,8 +13,21 @@ timeLine.from(".links h4",{
     stagger:.2
 })
 
-timeLine.from(".links button",{
+timeLine.from(".navBtn",{
     y:-50,
     opacity:0,
     duration:.5
-},"-=.2")
+},"-=.6")
+
+timeLine.from(".hero .part1 h1,p,.heroBtn",{
+    y:50,
+    opacity:0,
+    duration:.8,
+    stagger:.3
+})
+
+timeLine.from(".hero .part2 img",{
+    x:300,
+    opacity:0,
+    duration:.5
+},"-=.8")
